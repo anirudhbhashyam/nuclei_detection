@@ -21,7 +21,6 @@ def analyse(path: str, out_dir: str) -> None:
 
 def analyse_single(img_path: str, out_dir: str) -> None:
     img_name = os.path.split(img_path)[1].split(".")[0]
-    print(f"IMAGE PATH: {img_path}")
     img = skimage.io.imread(img_path)
     processed_img = pre_process(img)
     contour_data = detect_contours(processed_img)
