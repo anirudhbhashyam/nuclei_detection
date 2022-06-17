@@ -8,7 +8,6 @@ import cv2
 
 import matplotlib.pyplot as plt
 
-# sample_img = skimage.io.imread("/Users/anirudh/Downloads/WhatsApp Image 2022-06-17 at 5.29.03 PM.jpeg")
 KERNEL = np.ones((3, 3), dtype = np.uint16)
 
 def analyse(path: str, out_dir: str) -> None:
