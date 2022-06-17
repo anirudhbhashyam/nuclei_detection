@@ -6,7 +6,7 @@ A simple python image segmentation script to extract nuclei from images.
 
 # Usage
 ```
-$ git clone https://github.com/
+$ git clone https://github.com/anirudhbhashyam/nuclei_detection
 
 $ conda create --name <nuclei_detection> --file <env.yml> 
 
