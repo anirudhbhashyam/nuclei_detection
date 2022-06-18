@@ -8,7 +8,7 @@ import cv2
 
 import matplotlib.pyplot as plt
 
-KERNEL = np.ones((3, 3), dtype = np.uint16)
+KERNEL = np.ones((2, 2), dtype = np.uint16)
 
 def analyse(path: str, out_dir: str) -> None:
     if os.path.isfile(path):
