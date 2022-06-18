@@ -24,7 +24,7 @@ def main() -> None:
     if args.path is None:
         raise FileNotFoundError("Path provided is incorrect.")
     
-    results_dir = os.path.join(os.path.dirname(args.path), "results")
+    results_dir = os.path.join(os.path.dirname(__file__), "results")
     
     analyse(args.path, results_dir)
     
