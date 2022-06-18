@@ -16,6 +16,8 @@ $ cd nuclei_detection
 
 $ conda create --name <some_name> --file <env.yml> 
 
+$ conda activate <some_name>
+
 $ python main.py <path_to_file/path_to_dir>
 ```
 A folder `results` is created in `nuclei_detection`
